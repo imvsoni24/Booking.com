@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+
+    <div id="header">
+        <div id="nav">
+            <div><h2 class="h">Booking.com</h2></div>
+            <div>
+                <h3 class="h">INR</h3>
+                <img src="https://t-cf.bstatic.com/static/img/flags/new/48-squared/in/20aa535a5d3c505dd02fea275ed1a36c0fb1fe08.png" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 464c-114.7 0-208-93.31-208-208S141.3 48 256 48s208 93.31 208 208S370.7 464 256 464zM256 336c-18 0-32 14-32 32s13.1 32 32 32c17.1 0 32-14 32-32S273.1 336 256 336zM289.1 128h-51.1C199 128 168 159 168 198c0 13 11 24 24 24s24-11 24-24C216 186 225.1 176 237.1 176h51.1C301.1 176 312 186 312 198c0 8-4 14.1-11 18.1L244 251C236 256 232 264 232 272V288c0 13 11 24 24 24S280 301 280 288V286l45.1-28c21-13 34-36 34-60C360 159 329 128 289.1 128z"/></svg>
+                <button class="first">List your property</button>
+                <button class="second">Register</button>
+                <button class="second">Sign in</button>
+            </div>
+           
+        </div>
+        <div id="nav2">
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zM176 288c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80z"/></svg>Stays</div>
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"/></svg>Flights</div>
+                <div><svg class="bk-icon -streamline-travel_luggage_alt" height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"><path d="M6.306 17.25a8.25 8.25 0 1 1 11.69-7.502.75.75 0 1 0 1.5 0A9.75 9.75 0 0 0 13.812.889C8.917-1.356 3.13.791.884 5.685-1.36 10.58.786 16.367 5.68 18.613a.75.75 0 0 0 .626-1.364zM3.756 3.5l5.28 2a.75.75 0 0 1 .475.851l-.313 1.57a.75.75 0 0 1-.554.58l-2.08.518a.75.75 0 0 0-.514.45l-1.154 2.884a2.242 2.242 0 0 1-.84 1.037l-1.84 1.263a.75.75 0 1 0 .85 1.236l1.83-1.257a3.731 3.731 0 0 0 1.393-1.722l1.153-2.884-.514.449 2.079-.52a2.25 2.25 0 0 0 1.661-1.74l.314-1.57a2.25 2.25 0 0 0-1.417-2.548l-5.277-2a.75.75 0 1 0-.532 1.403zm11.565-.57l-1.467 2.926a2.25 2.25 0 0 0-.122 1.718l.557 1.663a.75.75 0 1 0 1.422-.476L15.154 7.1a.75.75 0 0 1 .041-.572l1.466-2.924a.75.75 0 1 0-1.34-.672zm7.175 16.192v2.625a.75.75 0 0 1-.75.75h-10.5a.75.75 0 0 1-.75-.75v-5.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 .75.75v2.625zm1.5 0v-2.625a2.25 2.25 0 0 0-2.25-2.25h-10.5a2.25 2.25 0 0 0-2.25 2.25v5.25a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-2.625zm-12-4.125v8.25a.75.75 0 0 0 1.5 0v-8.25a.75.75 0 0 0-1.5 0zm7.5 0v8.25a.75.75 0 0 0 1.5 0v-8.25a.75.75 0 0 0-1.5 0zm-4.5.002v-.75a1.5 1.5 0 0 1 3 0V15a.75.75 0 0 0 1.5 0v-.75a3 3 0 1 0-6 0V15a.75.75 0 0 0 1.5 0z"></path></svg>Flight + Hotel</div>
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm288 32c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg>Car Rentals</div>
+                <div><svg class="bk-icon -streamline-attractions" height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"><path d="M13.5 3a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM15 3a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM21 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm-9-3.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm10.066 1.277a7.5 7.5 0 0 1-3.077 2.05.75.75 0 0 0 .498 1.415 9 9 0 0 0 3.693-2.46.75.75 0 1 0-1.114-1.005zm1.798-6.466c.177.922.183 1.869.015 2.792a.75.75 0 1 0 1.476.268c.2-1.106.194-2.24-.019-3.344a.75.75 0 1 0-1.472.284zm-5.337-5.784a7.5 7.5 0 0 1 3.54 2.196.75.75 0 0 0 1.113-1.004 9.002 9.002 0 0 0-4.247-2.636.75.75 0 1 0-.406 1.444zM6.434 6.223a7.5 7.5 0 0 1 3.539-2.196.75.75 0 1 0-.406-1.444A9.001 9.001 0 0 0 5.32 5.219a.75.75 0 0 0 1.114 1.004zM4.636 12.69a7.602 7.602 0 0 1 0-2.878.75.75 0 1 0-1.472-.284 9.102 9.102 0 0 0 0 3.446.75.75 0 0 0 1.472-.284zm4.876 5.639a7.517 7.517 0 0 1-3.035-2.005.75.75 0 0 0-1.106 1.014 9.017 9.017 0 0 0 3.641 2.405.75.75 0 1 0 .5-1.414zM7.31 21.872A1.5 1.5 0 0 0 8.672 24h6.656a1.5 1.5 0 0 0 1.362-2.128l-3.314-8.217c-.361-.785-1.252-1.114-2.005-.767a1.5 1.5 0 0 0-.733.734l-3.343 8.283zm1.377.595l3.328-8.25-.015.033 3.313 8.217.015.033H8.672z"></path></svg>Attractions</div>
+                <div><svg class="bk-icon -streamline-taxi_sign" height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"><path d="M21.75 15.5V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zm-16.5 0V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zM3 8.75h3a.75.75 0 0 0 0-1.5H3a.75.75 0 0 0 0 1.5zm6.75 6.75v-6a.75.75 0 0 1 1.5 0v6a.75.75 0 0 0 1.5 0v-6a2.25 2.25 0 0 0-4.5 0v6a.75.75 0 0 0 1.5 0zM9 13.25h3a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5zm5.304-4.971l3 7.5a.75.75 0 0 0 1.392-.557l-3-7.5a.75.75 0 0 0-1.392.557zm3-.558l-3 7.5a.75.75 0 0 0 1.392.557l3-7.5a.75.75 0 0 0-1.392-.557zM.75 5h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zm0 15h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5z"></path></svg>Airport Taxis</div>
+        </div>
+        <div id="text">
+             <h1>Find your next stay</h1>
+             <p>Search low prices on hotels, homes and much more...</p>
+        </div>
+       
+    </div>
+    <!-- content -->
+    <div id="covid">
+       <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>
+        <p>Get the advice you need. Check the latest COVID-19 restrictions before you travel. <a href="">Learn more</a></p>
+       </div>
+    </div>
+    <!-- //////////////////////////////////////////////////////////////////// -->
+    <div id="offers">
+        <h2>Offers</h2>
+        <p>Promotions, deals and special offers for you</p>
+        <div id="card">
+            <div>
+                <p>Save 15% with Late Escape Deals</p>
+                <p>Tick one more destination off your wishlist</p>
+                <button>Explore Deals</button>
+            </div>
+            <div>
+                <p>Escape for a while</p>
+                <p>Enjoy the freedom of an extended stay on Booking.com</p>
+                <button>Discover extended stays</button>
+            </div>
+        </div>
+        
+    </div>
+        <!-- //////////////////////////////////////////////////////////////////// -->
+        <div id="explore">
+            <h2>Explore India</h2>
+            <p>These popular destinations have a lot to offer</p>
+            <div class="main-carousel card2">
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/region/square250/49646.webp?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o=" alt="">
+                    <h3>Goa</h3>
+                    <p>5244 properties</p>
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/971346.webp?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="">
+                    <h3>Mumbai</h3>
+                    <p>1651 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684765.webp?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" alt="">
+                    <h3>New Delhi</h3>
+                    <p>2912 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684534.webp?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" alt="">
+                    <h3>Bangalore</h3>
+                    <p> 2041 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684657.webp?k=66dc5035b43e9bb86b756e381e4fec2558064af4a63a8af17836725a854c03ee&o=" alt="">
+                    <h3>Jaipur</h3>
+                    <p>1560 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/region/square250/68606.webp?k=4b43b9128b79beaab4ca2e8c038ddf5709b0b90608afbca222cfbe08fabda7d2&o=" alt="">
+                    <h3>North Goa</h3>
+                    <p>3904 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684682.webp?k=30cf9de93f2a0f87eed7d2d0d9b3e6eccd5dcf3a4b68b4e0151c0800ddc84af7&o=" alt="">
+                    <h3>Lonavla</h3>
+                    <p>751 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684769.webp?k=146b18e42b9eb74078f2e80e07e573e8dbac879208b86bae451f99882f566a99&o=" alt="">
+                    <h3>Pondicherry</h3>
+                    <p>694 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684938.webp?k=9d07ff707ce59768769b5e9a5381a4c705d921209dafd8fd0e2f1a6acdf0c68a&o=" alt="">
+                    <h3>Udaipur</h3>
+                    <p>817 properties</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://t-cf.bstatic.com/xdata/images/city/square250/684653.webp?k=306ccafcc8a4a7e23b9e8a05b183453fe885b312a4daa5ce76ec39a1b79cbc6f&o=" alt="">
+                    <h3>Hyderabad</h3>
+                    <p>795 properties</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <!-- ////////////////////////////////////////////////////////////// -->
+        <div id="browse">
+            <h2>Browse by property type</h2>
+            <div class="main-carousel card3">
+                <div class="cell">
+                    <img src="https://r-xx.bstatic.com/xdata/images/xphoto/300x240/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=" alt="">
+                    <h3>Hotel</h3>
+                    <p>900,849 Hotels</p>
+                 
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/hotel/300x240/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=" alt="">
+                    <h3>Apartments</h3>
+                    <p>890,733 Apartments</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=" alt="">
+                    <h3>Resorts</h3>
+                    <p>900,889 Resorts</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://r-xx.bstatic.com/xdata/images/hotel/300x240/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=" alt="">
+                    <h3>Villas</h3>
+                    <p>666,567 Villas</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/hotel/300x240/52979454.jpeg?k=6ac6d0afd28e4ce00a8f817cc3045039e064469a3f9a88059706c0b45adf2e7d&o=" alt="">
+                    <h3>Cabins</h3>
+                    <p>442,555 Cabins</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450074.jpeg?k=7039b03a94f3b99262c4b3054b0edcbbb91e9dade85b6efc880d45288a06c126&o=" alt="">
+                    <h3>Cottages</h3>
+                    <p>897,777 Cottages</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450090.jpeg?k=52f6b8190edb5a9c91528f8e0f875752ce55a6beb35dc62873601e57944990e4&o=" alt="">
+                    <h3>Glamping</h3>
+                    <p>900,849 Glamping</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450058.jpeg?k=2449eb55e8269a66952858c80fd7bdec987f9514cd79d58685651b7d6e9cdfcf&o=" alt="">
+                    <h3>Serviced Apartments</h3>
+                    <p>442,555 Serviced Apartments</p>
+                </div>
+                <div class="cell">
+                    <img src="https://r-xx.bstatic.com/xdata/images/xphoto/300x240/45450113.jpeg?k=76b3780a0e4aacb9d02ac3569b05b3c5e85e0fd875287e9ac334e3b569f320c7&o=" alt="">
+                    <h3>Holiday Homes</h3>
+                    <p>897,777 Holiday homes</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://r-xx.bstatic.com/xdata/images/xphoto/300x240/45450073.jpeg?k=795a94c30433de1858ea52375e8190a962b302376be2e68aa08be345d936557d&o=" alt="">
+                    <h3>Guest Houses</h3>
+                    <p>442,555 Guest Houses</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://q-xx.bstatic.com/xdata/images/xphoto/300x240/45450082.jpeg?k=beb101b827a729065964523184f4db6cac42900c2415d71d516999af40beb7aa&o=" alt="">
+                    <h3>Hostels</h3>
+                    <p>234,777 Hostels</p>
+
+                </div>
+                <div class="cell">
+                    <img src="https://r-xx.bstatic.com/xdata/images/xphoto/300x240/45450093.jpeg?k=aa5cc7703f3866af8ffd6de346c21161804a26c3d0a508d3999c11c337506ae1&o=" alt="">
+                    <h3>Motels</h3>
+                    <p>876,999 Motels</p>
+
+                </div>
+               
+                
+    
+            </div>
+            
+        </div>
+        <!-- Filter by country-->
+        <div id="city">
+            <div>
+                <div>Manchestor <img src="https://t-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt=""></div>
+                <div><p class="p">Deals starts at 74,367</p></div>
+            </div>
+            <div>
+                <div>Leeds <img src="https://t-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt=""></div>
+            </div>
+        </div>
+        <div id="city2">
+            <div>
+                <div>Reading <img src="https://t-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt=""></div>
+                <div><p class="p">Deals starts at 19,614</p></div>
+            </div>
+            <div>
+                <div>Newcastle upon Tyne <img src="https://t-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt=""></div>
+                <div><p class="p">Deals starts at 24,367</p></div>
+            </div>
+            <div>
+                <div>Birmingham <img src="https://t-cf.bstatic.com/static/img/flags/24/gb/b2f01d4fd94cb1420fcdbbef62c06ade1026fbbd.png" alt=""></div>
+                <div><p class="p">Deals starts at 44,367</p></div>
+            </div>
+        </div>
+
+       
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('#explore > .main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    // freeScroll: true,
+    pageDots : false,
+    groupCells : 6,
+  });
+  $('#browse > .main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    // freeScroll: true,
+    pageDots : false,
+    groupCells : 4,
+  });
+</script>
