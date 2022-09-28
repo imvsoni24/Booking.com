@@ -238,7 +238,7 @@ svg{
   }
   #city2{
     width: 70%;
-    height: 800px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -319,6 +319,14 @@ svg{
     margin-top: 120px;
     margin-right: 10px;
   }
+  
+
+
+  
+
+
+
+
     
     
 
