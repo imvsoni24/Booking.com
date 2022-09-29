@@ -79,16 +79,12 @@ visibility: visible;
 }
 #nav>div:nth-child(1){
   width: 50%;
-
-
 }
 #nav>div:nth-child(2){
   width: 50%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-
 }
 .h{
   color: white;
@@ -225,7 +221,6 @@ visibility: visible;
   justify-content: space-between;
   margin: auto;
   margin-top: 50px;
-
 }
 #city>div:nth-child(1){
   width: 49%;
@@ -368,8 +363,129 @@ visibility: visible;
 }
 #trip>#suggestion>div:nth-child(1){
   background-image: url("https://images.unsplash.com/photo-1549654747-1fe362f45d7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-
 }
+  #city>div:nth-child(1){
+    width: 49%;
+    height: 250px;
+    background-image: url("https://media.istockphoto.com/photos/manchester-city-centre-uk-picture-id485875436?k=20&m=485875436&s=612x612&w=0&h=_Ny7jA_avInhpNFyjxpK1vW9NvySrOrIhY9by6FuivA=");
+    color: white;
+    font-size: 35px;
+    
+  }
+  #city>div:nth-child(2){
+    width: 49%;
+    height: 250px;
+    background-image: url("https://media.istockphoto.com/photos/manchester-skyline-picture-id1067367850?k=20&m=1067367850&s=612x612&w=0&h=nJw4SwOVrDi1Hp55CwV1YUh5-2A6CC-V5JY-nCXmU38=");
+    color: white;
+    font-size: 35px;
+  }
+  #city>div:nth-child(1)>div{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #city>div:nth-child(2)>div{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #city>div:nth-child(1)>div:nth-child(2){
+    width: 22%;
+    height: 30px;
+    border: 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    color: black;
+    background-color: orangered;
+    margin-top: 90px;
+    margin-right: 30px;
+  }
+  .p{
+    margin: auto;
+  }
+  #city2{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  #city2>div:nth-child(1){
+    width: 32%;
+    height: 250px;
+    background-image: url("https://media.istockphoto.com/photos/manchester-city-panoramic-view-picture-id691801520?k=20&m=691801520&s=612x612&w=0&h=bGSv40DTlhXr6D-4WYo1FDmKcrmyOWNG3uUIkdouVQ4=");
+    color: white;
+    font-size: 27px;
+    
+  }
+  #city2>div:nth-child(2){
+    width: 32%;
+    height: 250px;
+    background-image: url("https://media.istockphoto.com/photos/beetham-tower-manchester-picture-id815365434?k=20&m=815365434&s=612x612&w=0&h=ftrNb8Ok5y87jrpOiQ1Nik23s7nkzxJf1SJZSWZ_qf8=");
+    color: white;
+    font-size: 27px;
+    
+  }
+  #city2>div:nth-child(3){
+    width: 32%;
+    height: 250px;
+    background-image: url("https://media.istockphoto.com/photos/manchester-city-skyline-at-night-picture-id876136332?k=20&m=876136332&s=612x612&w=0&h=1XonCyVli7fVHFSL-yU5P5xxmSf0hVYJY50nHqFRjO4=");
+    color: white;
+    font-size: 27px;
+  }
+  #city2>div:nth-child(1)>div{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #city2>div:nth-child(2)>div{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #city2>div:nth-child(3)>div{
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #city2>div:nth-child(1)>div:nth-child(2){
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: orangered;
+    margin-top: 120px;
+    margin-right: 10px;
+  }
+  #city2>div:nth-child(2)>div:nth-child(2){
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: orangered;
+    margin-top: 120px;
+    margin-right: 10px;
+  }
+  #city2>div:nth-child(3)>div:nth-child(2){
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: orangered;
+    margin-top: 120px;
+    margin-right: 10px;
+  }
 #trip>#suggestion>div:nth-child(2){
  background-image: url("https://images.unsplash.com/photo-1500916434205-0c77489c6cf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5ldyUyMHlvcmslMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
 
