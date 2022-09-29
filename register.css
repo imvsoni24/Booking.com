@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #003580;
+    width: 100%;
+    height: 67px;
+}
+svg{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: white;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+#nav{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#nav>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+.h>a            {
+    color: white;
+}
+.tooltip>img{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+#register{
+    width: 30%;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+textarea, input, h3,label{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-left: 12px;
+}
+#register>form>p{
+    text-align: center;
+}
+#register>form{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+ form>h3 ,input,p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+form>svg{
+    width: 25%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-left: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+form>svg:hover{
+     border-color: #003580;
+     border: 1px solid;
+}
+form{
+    margin: auto;
+}
+form>p{
+    font-size: 16px;
+}
+input[type="button"]{
+         background-color: #006ce4;
+         color:white;
+         border-color: #006ce4;
+}
+h3{
+    font-size: 30px;
+}
