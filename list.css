@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    background-color: #003580;
+    height: 660px;
+}
+
+#learn{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}           
+
+#learn>div>div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+#learn>div>div>img{
+    width: 5%;
+}
+
+#learn>div{
+    width: 60%;
+}
+
+#learn>div>button{
+    padding: 7px 10px 7px 10px;
+    font-size: 15px;
+    background-color: white;
+    color: #0071c2;
+    border-color: #0071c2;
+}
+
+#learn>div>h1,p,img{
+    margin-bottom: 25px;
+    
+}
+
+#learn>div>h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#learn>div>p{
+    font-size: 17px;
+
+}
+
+#learn>div:nth-child(2)>img{
+    width: 70%;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+#learn>div>div>p{
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+#learn2{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#learn2>div>div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+#learn2>div>div>img{
+    width: 5%;
+}
+
+#learn2>div{
+    width: 45%;
+}
+
+#learn2>div>button{
+    padding: 7px 10px 7px 10px;
+    font-size: 15px;
+    background-color: white;
+    color: #0071c2;
+    border-color: #0071c2;
+}
+
+#learn2>div>div>,p,img{
+    margin-bottom: 35px;
+    
+}
+
+#learn2>div:nth-child(1)>p{
+    margin-bottom: 90px;
+}
+
+#learn2>div:nth-child(1)>h1{
+    margin-bottom: 10px;
+}
+
+#learn2>div>h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#learn2>div>p{
+    font-size: 17px;
+
+}
+
+#learn2>div:nth-child(2)>img{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#learn2>div>div>p{
+    margin-left: 15px;
+    font-size: 17px;
+}
+#elvira{
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+    height: auto;
+}
+#elvira>div:nth-child(2){
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     height: 390px;
+}
+#elvira>div:nth-child(2)>div>img{
+    width: 110%;
+    height: 390px;
+}
+#elvira>div:nth-child(2)>div:nth-child(2){
+    width: 45%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#elvira>div:nth-child(2)>div:nth-child(2)>h2{
+    margin-top: 20px;
+}
+#ben{
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+   
+}
+#ben>#grid{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+#ben>#grid>div:nth-child(1){
+    margin-top: 35px;
+    width: 40%;
+}
+#ben>#grid>div:nth-child(2){
+    width: 40%;
+
+}
+
+
+#ben>#grid2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+#ben>#grid2>div:nth-child(1){
+    margin-top: 18px;
+    width: 40%;
+
+}
+#ben>#grid2>div:nth-child(2){
+    width: 40%;
+
+}
+#num{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+#num>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#num>div>div>h1{
+    font-size: 50px;
+}
+#num>div>div>p{
+    font-size: 18px;
+}
