@@ -6,7 +6,160 @@
 #header{
     width: 100%;
     background-color: #003580;
-    height: 660px;
+    height: auto;
+}
+#nav{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .tooltip .tooltiptext {
+    visibility: visible;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    }
+    
+    .tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
+#nav>div{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+#nav>div>button{
+    padding: 10px 8px 10px 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+#nav>div>a{
+    cursor: pointer;
+    text-decoration: none;
+}
+#nav>div>a,h3{
+    color: white;
+}
+#nav>div>a>h2>span{
+    color: #0071c2;
+}
+.fir{
+    color: white;
+    border-color: white;
+    background-color: #003580;
+}
+.sec{
+    color: white;
+    background-color: #0071c2;
+    border: none;
+}
+#nav>div:nth-child(2)>img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+#any{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+}
+#any>div:nth-child(1){
+    width: 100%;
+}
+#any>div:nth-child(1)>h1{
+    font-size: 50px;
+    color: white;
+}
+#any>div:nth-child(1)>h2{
+    color: white;
+    margin-top: 10px;
+}
+#any>div:nth-child(1)>h3{
+    font-size: 55px;
+    color:  #0071c2 ;
+}
+
+
+
+#get{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 60px;
+
+}
+.content{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.content>h2{
+    font-size: 30px;
+}
+.content>h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content>h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.content>h5{
+    color: #0071c2;
+    font-size: 16px;
+}
+.content>button{
+    width: 100%;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.content>h2{
+    margin-bottom: 15px;
+}
+.content>div{
+    display: flex;
+    margin: auto;
+}
+.content>div>svg{
+    margin-right: 10px;
 }
 
 #learn{
@@ -210,4 +363,107 @@
 }
 #num>div>div>p{
     font-size: 18px;
+}
+#footer{
+    background-color: #003580;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+#any1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+}
+#any1>div:nth-child(1){
+    width: 100%;
+}
+#any1>div:nth-child(1)>h1{
+    font-size: 50px;
+    color: white;
+}
+#get1{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.content1{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.content1>h2{
+    font-size: 30px;
+}
+.content1>h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content1>h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.content1>h5{
+    color: #0071c2;
+    font-size: 16px;
+}
+.content1>button{
+    width: 100%;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.content1>h2{
+    margin-bottom: 15px;
+}
+.content1>div{
+    display: flex;
+    margin: auto;
+}
+.content1>div>svg{
+    margin-right: 10px;
+}
+#link{
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#link>div>h2,p>a{
+    color: white;
+}
+#link>div>h2{
+    margin-bottom: 20px;
+}
+.w{
+    width: 70%;
+    margin: auto;
+}
+#dowNavbar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#dowNavbar>div>a, .p{
+    color: white;
 }

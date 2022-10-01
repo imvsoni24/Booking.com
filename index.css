@@ -19,6 +19,7 @@ text-decoration: none;
 .tooltip {
 position: relative;
 display: inline-block;
+cursor: pointer;
 }
 
 .tooltip .tooltiptext {
@@ -47,6 +48,7 @@ visibility: visible;
   width: 70%;
   margin: auto;
   padding-top: 20px;
+  justify-content: space-between;
 }
 #nav2{
   display: flex;
@@ -69,7 +71,7 @@ visibility: visible;
   margin-right: 15px;
 }
 #nav2>div:hover{
-  background-color: #7ba5df;
+  background-color: #a3adba;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -78,16 +80,17 @@ visibility: visible;
 
 }
 #nav>div:nth-child(1){
-  width: 50%;
+  width: 45%;
 }
 #nav>div:nth-child(2){
-  width: 50%;
+   width: 45%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .h{
   color: white;
+  cursor: pointer;
 }
 .second{
   color: #003580;
@@ -99,7 +102,7 @@ visibility: visible;
   background-color: #003580 ;
   border-color: white;
   padding: 9px;
-
+  cursor: pointer;
 }
 .tooltip>img{
   width: 29px;
